@@ -1,8 +1,8 @@
 {
-  "name": "react-boilerplate",
+  "name": "react-modem-remote-access",
   "version": "1.0.0",
-  "description": "boilerplate for react app using jquery, foundation 6, karma, mocha and expect",
-  "main": "index.html",
+  "description": "Application client pour accéder à l'interface de la Fritz!box à distance via un client IOS.",
+  "main": "public/index.html",
   "scripts": {
     "test": "karma start",
     "start": "node server.js"

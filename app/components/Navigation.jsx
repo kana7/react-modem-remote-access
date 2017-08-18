@@ -10,15 +10,12 @@ var Navigation = React.createClass({
       <div className="top-bar">
         <div className="top-bar-left">
           <ul className="menu">
-            <li className="menu-text">React Boilerplate App</li>
-            <li>
-              <IndexLink to={'/'} activeClassName="active-link">Link</IndexLink>
-            </li>
+            <li className="menu-text">Modem remote access</li>
           </ul>
         </div>
         <div className="top-bar-right">
           <ul className="menu">
-            <li className="menu-text">Quentin Fonck</li>
+            <li className="menu-text">© Luxembourg Online S.A.</li>
           </ul>
         </div>
       </div>

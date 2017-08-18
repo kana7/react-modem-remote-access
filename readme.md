@@ -1,1 +1,1 @@
-Boilerplate to kickstart a react application (with foundation 6) with unit testing capabilities using karma, mocha and expect.
+Application client pour accéder à l'interface de la Fritz!box à distance via un client IOS
