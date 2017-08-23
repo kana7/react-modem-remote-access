@@ -23,10 +23,10 @@ var Main = React.createClass({
           </div>
         </div>
         <div className="row" id="content">
-          <div className="medium-8 columns">
+          <div className="small-12 medium-8 columns">
             <Session></Session>
           </div>
-          <div className="medium-3 columns sticky-container" data-sticky-container="">
+          <div className="small-12 medium-3 columns sticky-container" data-sticky-container="">
             <div className="sticky is-anchored is-at-top" data-sticky="d3ulh5-sticky" data-anchor="content" data-resize="xxflcj-sticky" style={{maxWidth: 285+'px', marginTop: 0, top: 0, bottom: 1966+'px'}}>
               <SessionList></SessionList>
             </div>

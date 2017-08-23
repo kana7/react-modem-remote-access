@@ -24,24 +24,24 @@ var Session = React.createClass({
         </div>
         <div className="session__body">
           <div className="row align-middle">
-            <div className="medium-6 columns">
+            <div className="small-12 medium-6 columns">
               <label className="session__infos">Nom du modem
                 <p>Fritz!7845</p>
               </label>
             </div>
-            <div className="medium-6 columns">
+            <div className="small-12 medium-6 columns">
               <label className="session__infos">Status du modem
                 <p>
                   <span className="badge success">Connecté</span>
                 </p>
               </label>
             </div>
-            <div className="medium-6 columns">
+            <div className="small-12 medium-6 columns">
               <label className="session__infos">adresse MAC
                 <p>00:1B:44:11:3A:B7</p>
               </label>
             </div>
-            <div className="medium-6 columns">
+            <div className="small-12 medium-6 columns">
               <label className="session__infos">Type de connexion activée(s)
                 <p>4G / WIFI</p>
               </label>
