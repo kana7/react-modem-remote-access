@@ -16,8 +16,8 @@ var Session = React.createClass({
             <div className="button-group">
               <a className="button">Ouvrir la session</a>
               <button className="dropdown button arrow-only" data-toggle="example-dropdown-1"></button>
-              <div className="dropdown-pane" id="example-dropdown-1" data-dropdown data-hover="true" data-hover-pane="true" data-position="bottom" data-alignment="right">
-                Just some junk that needs to be said. Or not. Your choice.
+              <div className="dropdown-pane align-right" id="example-dropdown-1" data-dropdown data-hover="true" data-hover-pane="true" data-position="bottom" data-alignment="right">
+                <a href="#">Clôturer la session</a>
               </div>
             </div>
           </div>
@@ -42,8 +42,8 @@ var Session = React.createClass({
               </label>
             </div>
             <div className="medium-6 columns">
-              <label className="session__infos">Numéro de série
-                <p>1452007468316270</p>
+              <label className="session__infos">Type de connexion activée(s)
+                <p>4G / WIFI</p>
               </label>
             </div>
           </div>
