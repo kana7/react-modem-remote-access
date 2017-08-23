@@ -9,11 +9,10 @@ var {
 
 var Main = require('Main');
 
-//load foundation
-$(document).foundation();
-
 // App css
 require('style!css!sass!applicationStyles');
+//load foundation
+$(document).foundation();
 
 ReactDOM.render(
   <Router history={hashHistory}>

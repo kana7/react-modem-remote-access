@@ -1,0 +1,59 @@
+.session-list {
+  background-color: $white;
+  padding: 0.625rem 0 0;
+  border: 1px solid $medium-gray;
+  border-radius: 4px;
+  box-shadow: 0 0 rem-calc(5) rgba(0,0,0, 0.18);
+
+  &__header {
+    padding: 0 0.9375rem;
+    border-bottom: 0.0625rem solid $medium-gray;
+
+    &__title {
+      font-weight: bold;
+      font-size: 1rem;
+    }
+  }
+
+  &__item {
+    margin: 0.5rem 0 0;
+    padding-bottom: 0.5rem;
+    &:not(:last-child){
+      border-bottom: 0.0625rem solid $medium-gray;
+    }
+    &__infos {
+      display: flex;
+      align-items: flex-start;
+
+      &__title {
+        flex: 1 0 0;
+
+        .name {
+          color: $black;
+          margin: 0.375rem 0 0;
+        }
+
+        .status{
+          color: $dark-gray;
+          margin-bottom: 0;
+          font-size: 0.85em;
+        }
+      }
+    }
+
+    &__controls {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      @include breakpoint(small only) {
+        justify-content: flex-start;
+      }
+
+      &__action {
+        margin-top: 0.7rem;
+      }
+    }
+  }
+
+}

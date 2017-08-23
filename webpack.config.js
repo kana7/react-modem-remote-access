@@ -21,6 +21,8 @@ module.exports = {
     alias: {
       Main: 'app/components/Main.jsx',
       Navigation: 'app/components/Navigation.jsx',
+      Session: 'app/components/session.jsx',
+      SessionList: 'app/components/SessionList.jsx',
       applicationStyles: 'app/styles/app.scss'
     },
     extentions: ['', '.js', '.jsx']
@@ -33,7 +35,8 @@ module.exports = {
       },
       test: /\.jsx?$/,
       exclude: /(node_modules|bower_components)/
-    }]
+    }
+  ]
   },
   sassLoader: {
     includePaths: [
