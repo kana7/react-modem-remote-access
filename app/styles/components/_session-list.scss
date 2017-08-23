@@ -16,6 +16,8 @@
   }
 
   &__item {
+    display: flex;
+    flex-flow: row wrap;
     margin: 0.5rem 0 0;
     padding-bottom: 0.5rem;
     &:not(:last-child){
